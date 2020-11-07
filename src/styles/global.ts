@@ -7,8 +7,12 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html, body, #__next {
+  html {
     font-size: 62.5%;
+  }
+
+  html, body, #__next {
+    height: 100%;
   }
 
   body {
