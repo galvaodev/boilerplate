@@ -10,6 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>React Avançado - Bolerplate</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="minifest" href="manifest.json" />
         <meta
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJsand Style Component"
